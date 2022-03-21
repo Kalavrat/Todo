@@ -1,0 +1,44 @@
+.h1 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.form {
+  display: inline-flex;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.btn {
+  display: inline-block;
+  height: 3rem;
+}
+.li {
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 30px;
+}
+.btn1 {
+  background-color: rgb(16, 161, 11);
+}
+.btn2 {
+  background-color: red;
+  margin-left: 5px;
+}
+.h2 {
+  font-size: 20px;
+  width: 100%;
+  margin: 0;
+}
+.div {
+  display: block;
+  margin-left: 860px;
+}
